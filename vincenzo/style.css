@@ -1,0 +1,35 @@
+* {
+    scroll-behavior: smooth;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nested {
+    list-style-type: upper-roman;
+}
+
+.main-ls {
+    text-transform: uppercase;
+}
+
+li {
+    margin: 10px;
+}
+
+#main-heading {
+    text-transform: uppercase;
+    background: lightskyblue;
+    padding: 20px;
+}
+
+#contents-heading {
+    padding-left: 10px;
+    color: black;
+    text-shadow: 3px 3px 2px #777;
+}
+
+.menu {
+    border: solid black;
+    border-radius: 10px;
+}
