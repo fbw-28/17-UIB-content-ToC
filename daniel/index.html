@@ -4,6 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+
+  <style>
+    ol li {
+      list-style: upper-roman;
+    }
+  </style>
 </head>
 
 <body>
@@ -21,17 +27,28 @@
   6. Change the nested list numbering to roman numerals
   -->
 
-  <h1>Some kind of article</h1>
+  <h1 id="toc-0">Some kind of article</h1>
 
-  <h2>Table of contents</h2>
+  <h2 id="toc-h2">Table of contents</h2>
   <!-- Add the TOC list here -->
-
-  First Heading Sub Heading 1.1 Sub Heading 1.1 Second Heading Sub Heading 2.1 Sub Heading 2.2 Sub Heading 2.3
+  <ol>
+      <a href="#toc-1"><li>First Heading</li></a>
+      <ol>
+        <a href="#toc-1-1"><li>Sub Heading 1.1</li></a>
+        <a href="#toc-1-2"><li>Sub Heading 1.2</li></a>
+      </ol>
+      <a href="#toc-2"><li>Second Heading</li></a>
+      <ol>
+        <a href="#toc-2-1"><li>Sub Heading 2.1</li></a>
+        <a href="#toc-2-2"><li>Sub Heading 2.2</li></a>
+        <a href="#toc-2-3"><li>Sub Heading 2.3</li></a>
+      </ol>
+  </ol>
 
   <!-- End TOC list -->
-  <h2>First Heading</h2>
+  <h2 id="toc-1">First Heading</h2>
 
-  <h3>Sub Heading 1.1</h3>
+  <h3 id="toc-1-1">Sub Heading 1.1</h3>
 
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto nihil officiis tenetur! Reprehenderit, ipsa
     consectetur enim necessitatibus inventore, nemo doloribus accusamus aperiam voluptatum libero non molestiae. Perferendis,
@@ -64,7 +81,9 @@
     sit sequi deserunt rem fuga quidem reiciendis quos ipsa expedita atque tenetur et iure! Facere sint, nihil cupiditate
     nisi tenetur, voluptatibus error aperiam quibusdam at saepe odio repellat animi!</p>
 
-  <h3>Sub Heading 1.2</h3>
+    <a href="#toc-0">Back to top</a>
+
+  <h3 id="toc-1-2">Sub Heading 1.2</h3>
 
   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati excepturi est voluptatibus! Iusto accusamus maxime
     temporibus sed fugiat aspernatur laborum reprehenderit saepe omnis possimus harum delectus, iste repellat tempore a amet
@@ -93,9 +112,11 @@
     laudantium, ipsam asperiores atque nulla ut culpa neque deleniti amet similique optio quasi inventore. Quae, unde doloremque
     maiores ea voluptas hic neque ab veritatis. Nobis, debitis.</p>
 
-  <h2>Second Heading</h2>
+    <a href="#toc-0">Back to top</a>
 
-  <h3>Sub Heading 2.1</h3>
+  <h2 id="toc-2">Second Heading</h2>
+
+  <h3 id="toc-2-1">Sub Heading 2.1</h3>
 
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptates suscipit maiores praesentium architecto sequi
     ad voluptate aut laborum veniam? Dolore consequatur quibusdam vel consequuntur culpa, suscipit, cumque atque velit, assumenda
@@ -127,7 +148,9 @@
     nam ad vitae autem illum mollitia perspiciatis fuga itaque eum necessitatibus ducimus consequatur quis, accusantium,
     omnis impedit iste adipisci numquam quo possimus.</p>
 
-  <h3>Sub Heading 2.2</h3>
+    <a href="#toc-0">Back to top</a>
+
+  <h3 id="toc-2-2">Sub Heading 2.2</h3>
   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque dolorem dolores, magnam ipsa deleniti temporibus dignissimos
     voluptatibus deserunt minima debitis molestias recusandae nesciunt eum aliquam ex. Adipisci, error quibusdam? Excepturi
     porro eius, delectus cumque in, deserunt suscipit officia quae optio ipsum iste sunt iure. Magnam quos iusto labore eum
@@ -154,7 +177,9 @@
     sed qui itaque autem cum cupiditate fugit odit explicabo quibusdam, provident possimus officiis consectetur incidunt
     ullam repellat iste?</p>
 
-  <h3>Sub Heading 2.3</h3>
+    <a href="#toc-0">Back to top</a>
+
+  <h3 id="toc-2-3">Sub Heading 2.3</h3>
 
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis sunt, numquam nisi totam illo maxime suscipit eos?
     Sed quos ea quidem suscipit, unde amet aut iure ad beatae, deleniti aperiam. Repellendus, voluptatem! Nulla quae temporibus
@@ -181,6 +206,8 @@
     dolores incidunt voluptate quos ex deserunt aliquid adipisci nobis. Suscipit, illum. Est repellendus explicabo, quo maxime
     asperiores minima, nihil, soluta veniam magnam quam sapiente iure sunt molestiae? Fuga voluptatem, adipisci modi id illum
     enim libero maiores soluta, autem cumque magni quam deleniti nulla!</p>
+
+    <a href="#toc-0">Back to top</a>
 </body>
 
 </html>
